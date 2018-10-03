@@ -1,0 +1,30 @@
+
+Call:
+ randomForest(formula = Weekly_Sales ~ ., data = crs$dataset[,      c(crs$input, crs$target)], ntree = 500, mtry = 15, sampsize = c(1e+05),      importance = TRUE, replace = FALSE) 
+               Type of random forest: regression
+                     Number of trees: 500
+No. of variables tried at each split: 15
+
+          Mean of squared residuals: 11449910
+                    % Var explained: 97.8
+               %IncMSE IncNodePurity
+Weekly_Sales_N 1775.82  4.999437e+13
+Unemployment    146.87  1.692071e+11
+CPI             143.88  1.592151e+11
+Dept            120.17  8.379231e+11
+Week             82.54  7.089246e+10
+Temperature      65.31  1.032580e+11
+MarkDown4        60.85  4.047302e+10
+MarkDown1        60.02  4.350791e+10
+Size             53.98  1.559627e+11
+Month            46.19  2.228268e+10
+Type             45.89  2.545282e+10
+MarkDown5        41.79  4.853600e+10
+MarkDown2        35.07  4.630327e+10
+Fuel_Price       28.64  1.195602e+11
+MarkDown3        26.84  7.480120e+10
+IsHoliday        11.81  9.792353e+09
+[1] "Running the test ..."
+[1] "MAE= 1021.61234449006"
+[1] "WMAE= 1057.83321525895"
+[1] "Running the final score ..."
